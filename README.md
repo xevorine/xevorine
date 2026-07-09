@@ -257,17 +257,25 @@ This project shows database modeling skills through structured game mechanics an
 
 ## Experience
 
-### Backend & AI Automation Developer — Personal and Academic Projects  
+### Backend & AI Automation Projects — Personal / Academic Work  
 `2022 — Present`
 
-Building software projects across backend systems, database design, AI automation, and applied machine learning.
+I build project-based backend systems and AI automation workflows focused on real use cases: WhatsApp moderation, business transaction management, database-driven dashboards, and applied machine learning experiments.
 
-- Built backend-driven web applications using PHP, Laravel, and MySQL
-- Designed relational database schemas, ERD diagrams, and SQL query systems
-- Integrated AI workflows using n8n, WAHA, Gemini API, Docker, and REST APIs
-- Created automation logic for command handling, warning escalation, and dashboard-ready data
-- Evaluated systems through blackbox testing, latency comparison, and usability testing
-- Wrote implementation documentation, diagrams, and technical analysis for academic projects
+| Area | What I Worked On |
+|---|---|
+| Backend Development | Built Laravel/PHP applications with MySQL-backed business logic, transaction flows, dashboards, and reporting-ready data structures |
+| AI Automation | Integrated Gemini with n8n and WAHA to process WhatsApp messages, classify context, trigger commands, and automate moderation actions |
+| Database Systems | Designed relational schemas, ERDs, SQL queries, joins, constraints, dictionaries, and structured records for business and game-system use cases |
+| Testing & Evaluation | Performed blackbox testing, latency comparison, model behavior review, and usability evaluation for automation workflows |
+| Documentation | Created technical diagrams, implementation notes, workflow explanations, and academic project reports |
+
+**Highlighted Work**
+
+- Designed a WhatsApp moderation workflow with warning levels, toxic message detection, leaderboard logic, command handling, and auto-kick escalation
+- Built backend logic for cashier and business management systems, including price calculation, income records, expense records, and profit visibility
+- Compared AI and rule-based approaches for moderation accuracy, response behavior, and real-time usability
+- Developed database designs for banking, campus, business, and farming RPG systems using structured relational modeling
 
 <br/>
 
@@ -275,6 +283,7 @@ Building software projects across backend systems, database design, AI automatio
 <img src="https://img.shields.io/badge/MySQL-020617?style=flat-square&logo=mysql&logoColor=38BDF8" />
 <img src="https://img.shields.io/badge/Docker-020617?style=flat-square&logo=docker&logoColor=2496ED" />
 <img src="https://img.shields.io/badge/REST%20API-020617?style=flat-square&logo=fastapi&logoColor=22D3EE" />
+<img src="https://img.shields.io/badge/n8n-020617?style=flat-square&logo=n8n&logoColor=EA4B71" />
 <img src="https://img.shields.io/badge/AI%20Automation-020617?style=flat-square&logo=openai&logoColor=818CF8" />
 
 ---
