@@ -15,6 +15,9 @@
 <br/>
 <br/>
 
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=2500&pause=800&color=8B5CF6&center=true&vCenter=true&width=700&lines=Building+AI-powered+automation+systems;Designing+database-driven+web+applications;Turning+real-world+problems+into+working+software" alt="Current Focus Animation" />
+<br/>
+
 <a href="https://github.com/xevorine">
   <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=A855F7" />
 </a>
