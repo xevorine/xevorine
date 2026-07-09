@@ -104,7 +104,6 @@ My current direction is building backend-driven web applications, AI-assisted au
 | Result | Details |
 |---|---|
 | AI Moderation Bot | Built a WhatsApp group moderation workflow using n8n, WAHA, Gemini, MySQL, and Docker |
-| Usability Score | Achieved SUS score of 77.08 in usability testing for the moderation bot |
 | Model Evaluation | Compared Gemini, Llama 3.3, and rule-based detection for toxic message moderation |
 | Response Performance | Gemini moderation testing reached an average response time of around 4.39 seconds |
 | System Testing | Core chatbot scenarios passed blackbox testing, including warning flow, safe messages, commands, and auto-kick logic |
