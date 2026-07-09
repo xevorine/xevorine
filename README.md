@@ -24,7 +24,7 @@
 <a href="https://www.linkedin.com/">
   <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=60A5FA" />
 </a>
-<a href="mailto:your.email@example.com">
+<a href="mailto:bivanpramudyto17@gmail.com">
   <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=F472B6" />
 </a>
 <a href="https://github.com/xevorine">
@@ -354,38 +354,3 @@ Open_To:
   - Full Stack Development Projects
   - AI Automation Collaboration
   - Open Source Contribution
-```
-
----
-
-## Connect
-
-<div align="center">
-
-<a href="mailto:your.email@example.com">
-  <img src="https://img.shields.io/badge/Gmail-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" />
-</a>
-<a href="https://www.linkedin.com/">
-  <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
-</a>
-<a href="https://github.com/xevorine">
-  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=FFFFFF" />
-</a>
-<a href="https://github.com/xevorine">
-  <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=A855F7" />
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-<strong>Engineering reliable systems, practical AI workflows, and products that solve real problems.</strong>
-
-<br/>
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:8A2BE2,50:302B63,100:0F0C29&section=footer" />
-
-</div>
