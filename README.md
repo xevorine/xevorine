@@ -15,7 +15,7 @@
 <br/>
 <br/>
 
-<a href="https://github.com/Xevorine">
+<a href="https://github.com/xevorine">
   <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=A855F7" />
 </a>
 <a href="https://www.linkedin.com/">
@@ -24,16 +24,16 @@
 <a href="mailto:your.email@example.com">
   <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=F472B6" />
 </a>
-<a href="https://github.com/Xevorine">
+<a href="https://github.com/xevorine">
   <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=ffffff" />
 </a>
 
 <br/>
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Xevorine&style=flat-square&color=7c3aed&label=Profile%20Views" />
-<img src="https://img.shields.io/github/followers/Xevorine?style=flat-square&color=8b5cf6&label=Followers" />
-<img src="https://img.shields.io/github/stars/Xevorine?style=flat-square&color=a855f7&label=Stars" />
+<img src="https://komarev.com/ghpvc/?username=xevorine&style=flat-square&color=7c3aed&label=Profile%20Views" />
+<img src="https://img.shields.io/github/followers/xevorine?style=flat-square&color=8b5cf6&label=Followers" />
+<img src="https://img.shields.io/github/stars/xevorine?style=flat-square&color=a855f7&label=Stars" />
 
 </div>
 
@@ -129,7 +129,7 @@ A WhatsApp group moderation chatbot designed to minimize toxic language, provide
 | Performance | Gemini-based moderation achieved faster response compared to alternative LLM testing |
 | Security | API key-based integration, structured warning logs, controlled automation actions |
 | Impact | Helps group admins reduce toxic behavior and maintain healthier communication |
-| Repository | [View Repository](https://github.com/Xevorine/whatsapp-moderation-chatbot) |
+| Repository | [View Repository](https://github.com/xevorine/whatsapp-moderation-chatbot) |
 
 The system detects toxic messages, evaluates context, stores warning history, and applies progressive enforcement. Users receive warning levels, while repeated violations can trigger automated participant removal. The bot also supports commands such as menu access, toxic leaderboard, and prayer schedule lookup.
 
@@ -149,7 +149,7 @@ A Laravel-based cashier and transaction management system designed for an alumin
 | Performance | Automated pricing reduces manual calculation errors |
 | Security | Authentication, role-based access planning, database-backed records |
 | Impact | Improves operational clarity for family business management |
-| Repository | [View Repository](https://github.com/Xevorine/laravel-cashier-system) |
+| Repository | [View Repository](https://github.com/xevorine/laravel-cashier-system) |
 
 This project focuses on practical business needs: separating aluminum and glass price lists, calculating product cost by dimensions, recording cash flow, and generating clear profit visibility for daily operations.
 
@@ -169,7 +169,7 @@ An image classification project comparing conventional machine learning concepts
 | Performance | Evaluated using classification metrics and model output analysis |
 | Security | Dataset path isolation and reproducible notebook workflow |
 | Impact | Demonstrates end-to-end understanding of applied machine learning |
-| Repository | [View Repository](https://github.com/Xevorine/ml-image-classification) |
+| Repository | [View Repository](https://github.com/xevorine/ml-image-classification) |
 
 The project applies rescaling, augmentation, categorical class handling, and image-based prediction. It emphasizes understanding model behavior, preprocessing decisions, and performance interpretation.
 
@@ -189,7 +189,7 @@ A relational database design for a farming and RPG-style game system. The schema
 | Performance | Normalized schema with dictionary tables and structured relationships |
 | Security | Data integrity through primary keys, foreign keys, and controlled entities |
 | Impact | Supports scalable game systems and future gameplay features |
-| Repository | [View Repository](https://github.com/Xevorine/farming-rpg-database) |
+| Repository | [View Repository](https://github.com/xevorine/farming-rpg-database) |
 
 This project demonstrates database modeling skills through modular schema design, reusable dictionary tables, player progress tracking, and structured game mechanics.
 
@@ -279,38 +279,11 @@ Building academic and personal software projects across full stack web developme
 </div>
 
 ---
-
-## GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Xevorine&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=8B5CF6&text_color=E5E7EB" />
-
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com?user=Xevorine&theme=midnight-purple&hide_border=true&background=0D1117&ring=A855F7&fire=8B5CF6&currStreakLabel=A855F7" />
-
-<br/>
-
-<img height="190em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xevorine&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=E5E7EB" />
-
-</div>
-
----
-
-## GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Xevorine&theme=onedark&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=7" />
-
-</div>
-
----
-
 ## Contribution Activity
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Xevorine&bg_color=0D1117&color=E5E7EB&line=A855F7&point=8B5CF6&area=true&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=xevorine&bg_color=0D1117&color=E5E7EB&line=A855F7&point=8B5CF6&area=true&hide_border=true" />
 
 </div>
 
@@ -320,12 +293,11 @@ Building academic and personal software projects across full stack web developme
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Xevorine/Xevorine/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+<sub>Snake animation will appear here after GitHub Actions is configured.</sub>
 
 </div>
 
 ---
-
 ## Current Focus
 
 ```yaml
@@ -360,16 +332,16 @@ Open_To:
 
 <div align="center">
 
-<a href="mailto:your.bivanpramudyto17.com">
+<a href="mailto:your.email@example.com">
   <img src="https://img.shields.io/badge/Gmail-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" />
 </a>
 <a href="https://www.linkedin.com/">
   <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" />
 </a>
-<a href="https://github.com/Xevorine">
+<a href="https://github.com/xevorine">
   <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=FFFFFF" />
 </a>
-<a href="https://github.com/Xevorine">
+<a href="https://github.com/xevorine">
   <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=A855F7" />
 </a>
 
