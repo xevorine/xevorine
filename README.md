@@ -1,38 +1,39 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f0c29,50:302b63,100:8A2BE2&text=Bivan%20Pramudyto&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Informatics%20Graduate%20%7C%20Software%20Engineering%20%7C%20AI%2FML%20%7C%20Full%20Stack&descAlignY=58&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:0F172A,100:2563EB&text=Bivan%20Pramudyto&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Backend%20Developer%20%7C%20AI%20Automation%20%7C%20Database%20Systems&descAlignY=58&animation=fadeIn" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&duration=3000&pause=900&color=A855F7&center=true&vCenter=true&width=900&lines=Informatics+Graduate+from+Universitas+Muhammadiyah+Surakarta;Full+Stack+Developer+with+Product+Engineering+Mindset;AI%2FML+Enthusiast+Building+Practical+Automation+Systems;Laravel+%7C+MySQL+%7C+Docker+%7C+n8n+%7C+Gemini+AI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=900&lines=Informatics+Graduate+from+Universitas+Muhammadiyah+Surakarta;Backend+Developer+focused+on+APIs%2C+Databases%2C+and+Automation;Building+AI-powered+workflow+systems+with+n8n%2C+WAHA%2C+and+Gemini;Laravel+%7C+MySQL+%7C+Docker+%7C+REST+API+%7C+AI+Automation" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=2500&pause=800&color=8B5CF6&center=true&vCenter=true&width=760&lines=Building+AI-powered+automation+systems;Designing+database-driven+web+applications;Turning+real-world+problems+into+working+software" alt="Current Focus Animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=2500&pause=800&color=818CF8&center=true&vCenter=true&width=760&lines=Designing+backend+systems+with+real-world+business+logic;Connecting+databases%2C+APIs%2C+dashboards%2C+and+AI+workflows;Turning+manual+processes+into+automated+software+systems" alt="Backend Focus Animation" />
 
 <br/>
 <br/>
 
-<img src="https://img.shields.io/badge/Informatics-Graduate-7C3AED?style=flat-square&logo=academia&logoColor=white" />
-<img src="https://img.shields.io/badge/Universitas%20Muhammadiyah%20Surakarta-Engineering-4F46E5?style=flat-square&logo=google-scholar&logoColor=white" />
-<img src="https://img.shields.io/badge/Indonesia-Developer-9333EA?style=flat-square&logo=google-maps&logoColor=white" />
+<img src="https://img.shields.io/badge/Informatics-Graduate-2563EB?style=flat-square&logo=academia&logoColor=white" />
+<img src="https://img.shields.io/badge/Backend-Developer-0F172A?style=flat-square&logo=serverless&logoColor=38BDF8" />
+<img src="https://img.shields.io/badge/AI-Automation-4F46E5?style=flat-square&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Indonesia-Remote%20Ready-0891B2?style=flat-square&logo=google-maps&logoColor=white" />
 
 <br/>
 <br/>
 
-<a href="mailto:bivanpramudyto17@gmail.com">
-  <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=F472B6" />
+<a href="mailto:your.email@example.com">
+  <img src="https://img.shields.io/badge/Email-020617?style=for-the-badge&logo=gmail&logoColor=38BDF8" />
 </a>
 <a href="https://github.com/xevorine">
-  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=ffffff" />
+  <img src="https://img.shields.io/badge/GitHub-020617?style=for-the-badge&logo=github&logoColor=ffffff" />
 </a>
 
 <br/>
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=xevorine&style=flat-square&color=7c3aed&label=Profile%20Views" />
-<img src="https://img.shields.io/github/followers/xevorine?style=flat-square&color=8b5cf6&label=Followers" />
-<img src="https://img.shields.io/github/stars/xevorine?style=flat-square&color=a855f7&label=Stars" />
+<img src="https://komarev.com/ghpvc/?username=xevorine&style=flat-square&color=2563eb&label=Profile%20Views" />
+<img src="https://img.shields.io/github/followers/xevorine?style=flat-square&color=0891b2&label=Followers" />
+<img src="https://img.shields.io/github/stars/xevorine?style=flat-square&color=4f46e5&label=Stars" />
 
 </div>
 
@@ -40,30 +41,30 @@
 
 ## About Me
 
-I am an Informatics graduate and software engineering enthusiast focused on building practical, reliable, and user-centered digital systems. My work combines full stack development, automation engineering, database design, and applied AI/ML to solve real-world problems with clean architecture and measurable impact.
+I am an Informatics graduate and backend-focused developer who builds practical software systems around APIs, databases, dashboards, automation workflows, and applied AI integration.
 
-I enjoy transforming ideas into working products, especially systems involving Laravel, MySQL, Docker, workflow automation, AI integration, and web-based dashboards. My engineering approach emphasizes maintainability, performance, usability, and clear business value.
+My work focuses on turning manual processes into reliable backend systems: Laravel applications, MySQL-backed dashboards, REST API integrations, Dockerized environments, and AI-powered workflows using tools such as n8n, WAHA, and Gemini.
 
-My current direction is building backend-driven web applications, AI-assisted automation workflows, and database-centered products that are useful in real operational contexts.
+I enjoy building systems that are not only technically functional, but also useful in real operations, easy to maintain, and measurable through testing, latency comparison, and user feedback.
 
 <br/>
 
 <table align="center">
   <tr>
-    <td><strong>Best At</strong></td>
-    <td>Laravel backend, MySQL database design, AI workflow automation, practical system implementation</td>
+    <td><strong>Main Focus</strong></td>
+    <td>Backend Development, AI Automation, Database Systems</td>
   </tr>
   <tr>
-    <td><strong>AI / ML Interest</strong></td>
-    <td>LLM integration, moderation systems, classification workflows, automation pipelines</td>
+    <td><strong>Core Stack</strong></td>
+    <td>Laravel, PHP, MySQL, Docker, REST API, n8n, WAHA, Gemini</td>
   </tr>
   <tr>
-    <td><strong>Product Mindset</strong></td>
-    <td>Usability, maintainability, measurable results, real-world business value</td>
+    <td><strong>Engineering Style</strong></td>
+    <td>Clean business logic, structured databases, practical automation, measurable output</td>
   </tr>
   <tr>
-    <td><strong>Open To</strong></td>
-    <td>Junior Software Engineer, Backend Developer, Full Stack Developer, AI Automation roles</td>
+    <td><strong>Currently Open To</strong></td>
+    <td>Backend Developer roles, AI automation projects, Laravel projects, internship / junior opportunities</td>
   </tr>
 </table>
 
@@ -76,24 +77,87 @@ My current direction is building backend-driven web applications, AI-assisted au
 <table>
   <tr>
     <td align="center" width="33%">
-      <strong>AI Automation Systems</strong>
+      <strong>Backend Systems</strong>
       <br/>
-      <sub>n8n, WAHA, Gemini, workflow automation, moderation bot</sub>
+      <sub>REST APIs, authentication, business logic, database-driven applications</sub>
     </td>
     <td align="center" width="33%">
-      <strong>Full Stack Web Apps</strong>
+      <strong>AI Automation Workflows</strong>
       <br/>
-      <sub>Laravel, PHP, MySQL, dashboards, cashier systems</sub>
+      <sub>n8n, WAHA, Gemini, webhook pipelines, moderation systems</sub>
     </td>
     <td align="center" width="33%">
-      <strong>Database-Driven Products</strong>
+      <strong>Database & Dashboard Apps</strong>
       <br/>
-      <sub>ERD, SQL schema, business logic, system design</sub>
+      <sub>MySQL, ERD, reporting, admin panels, operational tools</sub>
     </td>
   </tr>
 </table>
 
 </div>
+
+---
+
+## What I'm Best At
+
+```yaml
+backend_engineering:
+  - Designing database-backed applications
+  - Building Laravel-based business systems
+  - Structuring APIs, dashboards, and admin workflows
+
+ai_automation:
+  - Connecting AI models into real workflows
+  - Building moderation and chatbot systems
+  - Evaluating model output, latency, and usability
+
+database_systems:
+  - ERD and relational schema design
+  - MySQL queries, joins, constraints, and reporting
+  - Turning requirements into structured data models
+```
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+### Backend & Databases
+
+<img src="https://skillicons.dev/icons?i=laravel,php,mysql,postgres,sqlite,nodejs,express&theme=dark" />
+
+<br/>
+
+### AI Automation & Workflow
+
+<img src="https://skillicons.dev/icons?i=python,docker,postman,githubactions,linux&theme=dark" />
+
+<br/>
+
+### Frontend & UI
+
+<img src="https://skillicons.dev/icons?i=javascript,typescript,react,nextjs,tailwind,bootstrap,html,css&theme=dark" />
+
+<br/>
+
+### Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,figma,nginx&theme=dark" />
+
+</div>
+
+---
+
+## AI / Automation Expertise
+
+| Domain | Focus | Details |
+|---|---|---|
+| AI Workflow Integration | Practical AI systems | Connecting Gemini into automation pipelines, dashboards, and moderation workflows |
+| WhatsApp Automation | Bot & group moderation | WAHA integration, command handling, warning escalation, and admin automation |
+| Backend Automation | APIs & webhooks | REST API orchestration, event-based workflows, n8n logic, and database actions |
+| Evaluation | Testing & measurement | Blackbox testing, latency comparison, model output analysis, and usability testing |
+| Database-Driven AI | Persistent records | Warning logs, leaderboard data, user history, and structured MySQL storage |
 
 ---
 
@@ -103,54 +167,13 @@ My current direction is building backend-driven web applications, AI-assisted au
 
 | Result | Details |
 |---|---|
-| AI Moderation Bot | Built a WhatsApp group moderation workflow using n8n, WAHA, Gemini, MySQL, and Docker |
-| Model Evaluation | Compared Gemini, Llama 3.3, and rule-based detection for toxic message moderation |
-| Response Performance | Gemini moderation testing reached an average response time of around 4.39 seconds |
-| System Testing | Core chatbot scenarios passed blackbox testing, including warning flow, safe messages, commands, and auto-kick logic |
+| AI Moderation Bot | Built a WhatsApp moderation workflow using n8n, WAHA, Gemini, MySQL, and Docker |
+| Testing Result | Validated core scenarios such as warning levels, command handling, safe messages, and auto-kick logic |
+| Model Comparison | Compared Gemini, Llama 3.3, and rule-based detection for context accuracy and response speed |
+| Usability Testing | Conducted SUS-based evaluation and obtained a strong acceptance score |
+| Business System Design | Designed Laravel and MySQL-based cashier / operational systems for real business needs |
 
 </div>
-
----
-
-## Tech Stack
-
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=php,javascript,typescript,python,java,html,css&theme=dark" />
-
-<br/>
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,vite,figma&theme=dark" />
-
-<br/>
-
-### Backend & Databases
-
-<img src="https://skillicons.dev/icons?i=laravel,nodejs,express,mysql,postgres,sqlite&theme=dark" />
-
-<br/>
-
-### DevOps & Tooling
-
-<img src="https://skillicons.dev/icons?i=docker,linux,git,github,nginx,postman,vscode,githubactions&theme=dark" />
-
-</div>
-
----
-
-## AI / ML Expertise
-
-| Domain | Focus | Details |
-|---|---|---|
-| LLM Integration | Gemini API | Prompting, moderation workflows, context-aware response handling |
-| AI Moderation | WhatsApp Group Safety | Toxic detection, warning counter, leaderboard, escalation, auto-kick logic |
-| Machine Learning | Image Classification | Preprocessing, augmentation, training, validation, and output analysis |
-| Workflow Automation | n8n + API Gateway | Webhooks, branching logic, database writes, and third-party API integration |
-| Evaluation | Testing & Metrics | Blackbox testing, latency comparison, usability testing, and result analysis |
 
 ---
 
@@ -161,36 +184,36 @@ My current direction is building backend-driven web applications, AI-assisted au
 
 <br/>
 
-A WhatsApp group moderation chatbot designed to reduce toxic language, provide Islamic prayer reminders, track repeated violations, and automate warning escalation using AI-based context detection.
+A backend automation system for WhatsApp group moderation. It detects toxic messages, tracks repeated violations, responds to commands, stores warning history, and supports automated enforcement using AI-based context detection.
 
 | Category | Details |
 |---|---|
 | Stack | n8n, WAHA, Google Gemini, MySQL, Docker, REST API |
-| Features | Toxic detection, warning levels, auto-kick flow, leaderboard, prayer schedule command |
-| Evaluation | Blackbox testing, latency comparison, SUS usability testing |
-| Impact | Helps group admins maintain healthier communication with automated moderation logic |
+| Backend Scope | Webhooks, database logging, command routing, warning counter, API integration |
+| AI Scope | Context-aware toxic message classification and moderation response |
+| Testing | Blackbox scenarios, latency comparison, usability testing |
 | Repository | Private / In Progress |
 
-The system detects toxic messages, evaluates context, stores warning history, and applies progressive enforcement. Users receive warning levels, while repeated violations can trigger automated participant removal.
+The system is designed around real moderation logic: message detection, warning escalation, user history, leaderboard data, prayer schedule command, and automated group action after repeated violations.
 
 </details>
 
 <details>
-<summary><strong>Web-Based Cashier & Business Management System</strong></summary>
+<summary><strong>Laravel Cashier & Business Management System</strong></summary>
 
 <br/>
 
-A Laravel-based cashier and transaction management system designed for an aluminum and glass furniture business. The system supports item pricing, size-based calculations, income tracking, expense tracking, and automatic profit calculation.
+A Laravel-based cashier and transaction management system designed for an aluminum and glass furniture business. The system focuses on size-based pricing, separated item price lists, income tracking, expense tracking, and automatic profit calculation.
 
 | Category | Details |
 |---|---|
 | Stack | Laravel, PHP, MySQL, Blade, Bootstrap / Tailwind CSS |
-| Features | Price catalog, size-based calculation, income tracking, expense tracking, profit summary |
-| Use Case | Small business operations for aluminum and glass furniture products |
-| Impact | Reduces manual calculation effort and improves transaction clarity |
+| Backend Scope | Product data, transaction flow, pricing logic, cash flow records |
+| Database Scope | Item pricing tables, financial records, reporting-ready structure |
+| Business Impact | Reduces manual calculation work and improves daily operational clarity |
 | Repository | Private / In Progress |
 
-This project focuses on practical business needs: separating aluminum and glass price lists, calculating product cost by dimensions, recording cash flow, and generating clear profit visibility for daily operations.
+This project reflects practical backend development: translating business rules into structured tables, forms, calculations, and reports.
 
 </details>
 
@@ -199,17 +222,16 @@ This project focuses on practical business needs: separating aluminum and glass 
 
 <br/>
 
-An image classification project comparing conventional machine learning concepts with deep learning workflows. The project includes dataset preparation, preprocessing, augmentation, model training, and evaluation.
+An applied machine learning project focused on image classification, preprocessing, augmentation, model training, and output evaluation.
 
 | Category | Details |
 |---|---|
 | Stack | Python, TensorFlow / Keras, Google Colab, ImageDataGenerator |
-| Workflow | Train, validation, and test dataset pipeline |
-| Focus | Preprocessing, augmentation, classification, and model output analysis |
-| Impact | Demonstrates end-to-end understanding of applied machine learning |
-| Repository | Private / Academic Project |
+| ML Scope | Dataset split, rescaling, augmentation, categorical classification |
+| Evaluation | Output analysis, model behavior review, and comparison discussion |
+| Repository | Private / In Progress |
 
-The project applies rescaling, augmentation, categorical class handling, and image-based prediction. It emphasizes understanding model behavior, preprocessing decisions, and performance interpretation.
+This project demonstrates the ability to build and explain an end-to-end ML workflow, from dataset preparation to model evaluation.
 
 </details>
 
@@ -218,17 +240,16 @@ The project applies rescaling, augmentation, categorical class handling, and ima
 
 <br/>
 
-A relational database design for a farming and RPG-style game system. The schema covers master item data, minigames, NPCs, player progression, inventory, farming, quests, and relationships.
+A relational database design for a farming and RPG-style game system. The schema covers item dictionaries, minigames, NPCs, player progression, inventory, farming, quests, and relationships.
 
 | Category | Details |
 |---|---|
 | Stack | SQL, MySQL, ERD, PlantUML, Mermaid |
-| Scope | Items, minigames, NPCs, inventory, quests, player progress, relationships |
-| Focus | Normalized schema design and modular game systems |
-| Impact | Supports scalable data structure for future gameplay features |
-| Repository | Private / Academic Project |
+| Database Scope | Master data, player progress, inventory, quest, and relationship tables |
+| Design Focus | Normalization, relationships, reusable dictionary tables, scalability |
+| Repository | Private / In Progress |
 
-This project demonstrates database modeling skills through modular schema design, reusable dictionary tables, player progress tracking, and structured game mechanics.
+This project shows database modeling skills through structured game mechanics and multi-module relational design.
 
 </details>
 
@@ -236,39 +257,55 @@ This project demonstrates database modeling skills through modular schema design
 
 ## Experience
 
-### Informatics Graduate — Universitas Muhammadiyah Surakarta  
-`Software Engineering, AI Automation, and Database Systems`
+### Backend & AI Automation Developer — Personal and Academic Projects  
+`2022 — Present`
 
-Built academic and personal software projects across full stack web development, database systems, machine learning, and AI automation.
+Building software projects across backend systems, database design, AI automation, and applied machine learning.
 
-- Developed backend-driven web applications using PHP, Laravel, and MySQL
+- Built backend-driven web applications using PHP, Laravel, and MySQL
 - Designed relational database schemas, ERD diagrams, and SQL query systems
-- Built AI-assisted automation workflows using n8n, WAHA, and Gemini API
-- Conducted system testing using blackbox testing, latency analysis, and usability testing
-- Created documentation, reports, diagrams, and implementation analysis for academic projects
+- Integrated AI workflows using n8n, WAHA, Gemini API, Docker, and REST APIs
+- Created automation logic for command handling, warning escalation, and dashboard-ready data
+- Evaluated systems through blackbox testing, latency comparison, and usability testing
+- Wrote implementation documentation, diagrams, and technical analysis for academic projects
 
 <br/>
 
-<img src="https://img.shields.io/badge/Laravel-111827?style=flat-square&logo=laravel&logoColor=FF2D20" />
-<img src="https://img.shields.io/badge/MySQL-111827?style=flat-square&logo=mysql&logoColor=4479A1" />
-<img src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ED" />
-<img src="https://img.shields.io/badge/AI%20Automation-111827?style=flat-square&logo=openai&logoColor=A855F7" />
-<img src="https://img.shields.io/badge/System%20Design-111827?style=flat-square&logo=diagramsdotnet&logoColor=60A5FA" />
+<img src="https://img.shields.io/badge/Laravel-020617?style=flat-square&logo=laravel&logoColor=FF2D20" />
+<img src="https://img.shields.io/badge/MySQL-020617?style=flat-square&logo=mysql&logoColor=38BDF8" />
+<img src="https://img.shields.io/badge/Docker-020617?style=flat-square&logo=docker&logoColor=2496ED" />
+<img src="https://img.shields.io/badge/REST%20API-020617?style=flat-square&logo=fastapi&logoColor=22D3EE" />
+<img src="https://img.shields.io/badge/AI%20Automation-020617?style=flat-square&logo=openai&logoColor=818CF8" />
 
 ---
 
-## Highlights
+## Current Focus
 
-<div align="center">
+```yaml
+learning:
+  - Laravel backend architecture
+  - REST API design and authentication flow
+  - AI workflow automation with n8n, WAHA, and Gemini
+  - Dockerized backend development
 
-| Area | Highlights |
-|---|---|
-| Software Engineering | Laravel applications, MySQL systems, dashboard-oriented web apps |
-| AI Automation | WhatsApp moderation bot, n8n workflows, Gemini-based toxic message classification |
-| Database Design | ERD, SQL schema, relational modeling for business, banking, campus, and game systems |
-| Testing & Evaluation | Blackbox testing, usability testing, latency comparison, project documentation |
+building:
+  - WhatsApp AI moderation bot
+  - Laravel cashier and business management system
+  - MySQL-backed dashboards and reporting tools
+  - Database-driven web applications
 
-</div>
+improving:
+  - Clean backend structure
+  - API reliability
+  - Query and database design
+  - Real-world deployment workflow
+
+open_to:
+  - Backend Developer roles
+  - Junior Software Engineer opportunities
+  - AI automation projects
+  - Laravel and MySQL-based freelance work
+```
 
 ---
 
@@ -276,7 +313,7 @@ Built academic and personal software projects across full stack web development,
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=xevorine&bg_color=0D1117&color=E5E7EB&line=A855F7&point=8B5CF6&area=true&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=xevorine&bg_color=020617&color=E5E7EB&line=38BDF8&point=818CF8&area=true&hide_border=true" />
 
 </div>
 
@@ -292,38 +329,15 @@ Built academic and personal software projects across full stack web development,
 
 ---
 
-## Current Focus
-
-```yaml
-Currently_Building:
-  - AI-powered WhatsApp moderation workflow with n8n, WAHA, Gemini, and MySQL
-  - Laravel cashier and business management system for aluminum and glass furniture operations
-  - Database-driven web applications with clear business logic and maintainable schema design
-
-Improving:
-  - Backend architecture with Laravel
-  - API integration and workflow automation
-  - Applied machine learning evaluation
-  - Technical documentation and project presentation
-
-Open_To:
-  - Junior Software Engineer roles
-  - Backend Developer roles
-  - Full Stack Developer roles
-  - AI Automation and workflow-based projects
-```
-
----
-
 ## Connect
 
 <div align="center">
 
-<a href="mailto:bivanpramudyto17@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" />
+<a href="mailto:your.email@example.com">
+  <img src="https://img.shields.io/badge/Gmail-020617?style=for-the-badge&logo=gmail&logoColor=38BDF8" />
 </a>
 <a href="https://github.com/xevorine">
-  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=FFFFFF" />
+  <img src="https://img.shields.io/badge/GitHub-020617?style=for-the-badge&logo=github&logoColor=FFFFFF" />
 </a>
 
 </div>
@@ -332,11 +346,11 @@ Open_To:
 
 <div align="center">
 
-<strong>Engineering reliable systems, practical AI workflows, and products that solve real problems.</strong>
+<strong>Building backend systems, database-driven products, and AI automation workflows that solve real operational problems.</strong>
 
 <br/>
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:8A2BE2,50:302B63,100:0F0C29&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:2563EB,50:0F172A,100:020617&section=footer" />
 
 </div>
