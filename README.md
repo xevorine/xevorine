@@ -293,7 +293,7 @@ Building academic and personal software projects across full stack web developme
 
 <div align="center">
 
-<sub>Snake animation will appear here after GitHub Actions is configured.</sub>
+<img src="https://raw.githubusercontent.com/xevorine/xevorine/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
 </div>
 
