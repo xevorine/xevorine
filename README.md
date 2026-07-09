@@ -21,7 +21,7 @@
 <br/>
 <br/>
 
-<a href="mailto:your.email@example.com">
+<a href="mailto:bivanpramudyto17@gmail.com">
   <img src="https://img.shields.io/badge/Email-020617?style=for-the-badge&logo=gmail&logoColor=38BDF8" />
 </a>
 <a href="https://github.com/xevorine">
@@ -333,7 +333,7 @@ open_to:
 
 <div align="center">
 
-<a href="mailto:your.email@example.com">
+<a href="mailto:bivanpramudyto17@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-020617?style=for-the-badge&logo=gmail&logoColor=38BDF8" />
 </a>
 <a href="https://github.com/xevorine">
