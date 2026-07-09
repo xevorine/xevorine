@@ -70,6 +70,33 @@ My current focus is building production-ready applications, AI-assisted automati
 
 ---
 
+## What I Build
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <strong>AI Automation Systems</strong>
+      <br/>
+      <sub>n8n, WAHA, Gemini, workflow automation, moderation bot</sub>
+    </td>
+    <td align="center" width="33%">
+      <strong>Full Stack Web Apps</strong>
+      <br/>
+      <sub>Laravel, PHP, MySQL, dashboards, cashier systems</sub>
+    </td>
+    <td align="center" width="33%">
+      <strong>Database-Driven Products</strong>
+      <br/>
+      <sub>ERD, SQL schema, business logic, system design</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
+---
+
 ## Tech Stack
 
 <div align="center">
