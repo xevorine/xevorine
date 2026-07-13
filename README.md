@@ -4,45 +4,6 @@
   <img alt="Bivan Pramudyto GitHub Profile Banner" src="github-banner/dark.svg" width="100%">
 </picture>
 
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:0F172A,100:2563EB&text=Bivan%20Pramudyto&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Backend%20Developer%20%7C%20AI%20Automation%20%7C%20Database%20Systems&descAlignY=58&animation=fadeIn" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&duration=3000&pause=900&color=38BDF8&center=true&vCenter=true&width=900&lines=Informatics+Graduate+from+Universitas+Muhammadiyah+Surakarta;Backend+Developer+focused+on+APIs%2C+Databases%2C+and+Automation;Building+AI-powered+workflow+systems+with+n8n%2C+WAHA%2C+and+Gemini;Laravel+%7C+MySQL+%7C+Docker+%7C+REST+API+%7C+AI+Automation" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=2500&pause=800&color=818CF8&center=true&vCenter=true&width=760&lines=Designing+backend+systems+with+real-world+business+logic;Connecting+databases%2C+APIs%2C+dashboards%2C+and+AI+workflows;Turning+manual+processes+into+automated+software+systems" alt="Backend Focus Animation" />
-
-<br/>
-<br/>
-
-<img src="https://img.shields.io/badge/Informatics-Graduate-2563EB?style=flat-square&logo=academia&logoColor=white" />
-<img src="https://img.shields.io/badge/Backend-Developer-0F172A?style=flat-square&logo=serverless&logoColor=38BDF8" />
-<img src="https://img.shields.io/badge/AI-Automation-4F46E5?style=flat-square&logo=openai&logoColor=white" />
-<img src="https://img.shields.io/badge/Indonesia-Remote%20Ready-0891B2?style=flat-square&logo=google-maps&logoColor=white" />
-
-<br/>
-<br/>
-
-<a href="mailto:bivanpramudyto17@gmail.com">
-  <img src="https://img.shields.io/badge/Email-020617?style=for-the-badge&logo=gmail&logoColor=38BDF8" />
-</a>
-<a href="https://github.com/xevorine">
-  <img src="https://img.shields.io/badge/GitHub-020617?style=for-the-badge&logo=github&logoColor=ffffff" />
-</a>
-
-<br/>
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=xevorine&style=flat-square&color=2563eb&label=Profile%20Views" />
-<img src="https://img.shields.io/github/followers/xevorine?style=flat-square&color=0891b2&label=Followers" />
-<img src="https://img.shields.io/github/stars/xevorine?style=flat-square&color=4f46e5&label=Stars" />
-
-</div>
-
 ---
 
 ## About Me
@@ -362,10 +323,5 @@ open_to:
 <div align="center">
 
 <strong>Building backend systems, database-driven products, and AI automation workflows that solve real operational problems.</strong>
-
-<br/>
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:2563EB,50:0F172A,100:020617&section=footer" />
 
 </div>
