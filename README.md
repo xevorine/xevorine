@@ -1,3 +1,9 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-banner/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="github-banner/light.svg">
+  <img alt="Bivan Pramudyto GitHub Profile Banner" src="github-banner/dark.svg" width="100%">
+</picture>
+
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:0F172A,100:2563EB&text=Bivan%20Pramudyto&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=Backend%20Developer%20%7C%20AI%20Automation%20%7C%20Database%20Systems&descAlignY=58&animation=fadeIn" />

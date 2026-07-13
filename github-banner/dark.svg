@@ -1,0 +1,468 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%">
+  <defs>
+    <!-- Dark Mode Theme Color Variables -->
+    <style>
+      :root {
+        --color-bg: #030712;
+        --color-panel: #0f172a;
+        --color-panel-elevated: #1e293b;
+        --color-border: rgba(255, 255, 255, 0.08);
+        --color-text: #f8fafc;
+        --color-text-secondary: #cbd5e1;
+        --color-muted: #94a3b8;
+        --accent-1: #7c3aed; /* Purple */
+        --accent-2: #22d3ee; /* Cyan */
+        --accent-3: #10b981; /* Emerald */
+        --color-grid: rgba(255, 255, 255, 0.015);
+      }
+
+      /* Base Typographies */
+      text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        fill: var(--color-text);
+      }
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      }
+      .font-display {
+        font-family: Georgia, serif;
+      }
+
+      /* Animations */
+      @keyframes float-badge {
+        0%, 100% { transform: translateY(0) rotate(0deg); }
+        50% { transform: translateY(-6px) rotate(0.3deg); }
+      }
+      .float-box {
+        animation: float-badge 6s ease-in-out infinite;
+        transform-origin: 235px 215px;
+      }
+
+      /* Pulse animation */
+      @keyframes pulse-live {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
+      }
+      .live-pulse {
+        animation: pulse-live 2s infinite;
+      }
+
+      /* Typing and Opacity Sequence animations */
+      @keyframes type-role-1 {
+        0%, 2% { width: 0; }
+        8% { width: 210px; }
+        15% { width: 210px; }
+        18% { width: 0; }
+        100% { width: 0; }
+      }
+      @keyframes type-role-2 {
+        0%, 20% { width: 0; }
+        22% { width: 0; }
+        28% { width: 145px; }
+        35% { width: 145px; }
+        38% { width: 0; }
+        100% { width: 0; }
+      }
+      @keyframes type-role-3 {
+        0%, 40% { width: 0; }
+        42% { width: 0; }
+        48% { width: 245px; }
+        55% { width: 245px; }
+        58% { width: 0; }
+        100% { width: 0; }
+      }
+      @keyframes type-role-4 {
+        0%, 60% { width: 0; }
+        62% { width: 0; }
+        68% { width: 285px; }
+        75% { width: 285px; }
+        78% { width: 0; }
+        100% { width: 0; }
+      }
+      @keyframes type-role-5 {
+        0%, 80% { width: 0; }
+        82% { width: 0; }
+        88% { width: 265px; }
+        95% { width: 265px; }
+        98% { width: 0; }
+        100% { width: 0; }
+      }
+
+      /* Opacities to show only one role at a time */
+      @keyframes opacity-1 {
+        0%, 18% { opacity: 1; visibility: visible; }
+        19%, 100% { opacity: 0; visibility: hidden; }
+      }
+      @keyframes opacity-2 {
+        0%, 19% { opacity: 0; visibility: hidden; }
+        20%, 38% { opacity: 1; visibility: visible; }
+        39%, 100% { opacity: 0; visibility: hidden; }
+      }
+      @keyframes opacity-3 {
+        0%, 39% { opacity: 0; visibility: hidden; }
+        40%, 58% { opacity: 1; visibility: visible; }
+        59%, 100% { opacity: 0; visibility: hidden; }
+      }
+      @keyframes opacity-4 {
+        0%, 59% { opacity: 0; visibility: hidden; }
+        60%, 78% { opacity: 1; visibility: visible; }
+        79%, 100% { opacity: 0; visibility: hidden; }
+      }
+      @keyframes opacity-5 {
+        0%, 79% { opacity: 0; visibility: hidden; }
+        80%, 98% { opacity: 1; visibility: visible; }
+        99%, 100% { opacity: 0; visibility: hidden; }
+      }
+
+      /* Cursors animations matching the typing positions */
+      @keyframes cursor-move-1 {
+        0%, 2% { transform: translateX(0); }
+        8% { transform: translateX(210px); }
+        15% { transform: translateX(210px); }
+        18% { transform: translateX(0); }
+        100% { transform: translateX(0); }
+      }
+      @keyframes cursor-move-2 {
+        0%, 20% { transform: translateX(0); }
+        22% { transform: translateX(0); }
+        28% { transform: translateX(145px); }
+        35% { transform: translateX(145px); }
+        38% { transform: translateX(0); }
+        100% { transform: translateX(0); }
+      }
+      @keyframes cursor-move-3 {
+        0%, 40% { transform: translateX(0); }
+        42% { transform: translateX(0); }
+        48% { transform: translateX(245px); }
+        55% { transform: translateX(245px); }
+        58% { transform: translateX(0); }
+        100% { transform: translateX(0); }
+      }
+      @keyframes cursor-move-4 {
+        0%, 60% { transform: translateX(0); }
+        62% { transform: translateX(0); }
+        68% { transform: translateX(285px); }
+        75% { transform: translateX(285px); }
+        78% { transform: translateX(0); }
+        100% { transform: translateX(0); }
+      }
+      @keyframes cursor-move-5 {
+        0%, 80% { transform: translateX(0); }
+        82% { transform: translateX(0); }
+        88% { transform: translateX(265px); }
+        95% { transform: translateX(265px); }
+        98% { transform: translateX(0); }
+        100% { transform: translateX(0); }
+      }
+
+      @keyframes cursor-blink-step {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+
+      .role-1 { animation: opacity-1 15s infinite; }
+      .role-2 { animation: opacity-2 15s infinite; }
+      .role-3 { animation: opacity-3 15s infinite; }
+      .role-4 { animation: opacity-4 15s infinite; }
+      .role-5 { animation: opacity-5 15s infinite; }
+
+      .clip-rect-1 { animation: type-role-1 15s infinite; }
+      .clip-rect-2 { animation: type-role-2 15s infinite; }
+      .clip-rect-3 { animation: type-role-3 15s infinite; }
+      .clip-rect-4 { animation: type-role-4 15s infinite; }
+      .clip-rect-5 { animation: type-role-5 15s infinite; }
+
+      .cursor-rect-1 { animation: cursor-move-1 15s infinite, cursor-blink-step 1s infinite; }
+      .cursor-rect-2 { animation: cursor-move-2 15s infinite, cursor-blink-step 1s infinite; }
+      .cursor-rect-3 { animation: cursor-move-3 15s infinite, cursor-blink-step 1s infinite; }
+      .cursor-rect-4 { animation: cursor-move-4 15s infinite, cursor-blink-step 1s infinite; }
+      .cursor-rect-5 { animation: cursor-move-5 15s infinite, cursor-blink-step 1s infinite; }
+
+      /* Interactivity on Skills and Social tags */
+      .skill-tag:hover, .social-btn:hover {
+        fill: var(--color-panel);
+        stroke: var(--accent-2);
+        cursor: pointer;
+      }
+    </style>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255, 255, 255, 0.015)" stroke-width="1" />
+    </pattern>
+
+    <!-- Gradient definitions -->
+    <linearGradient id="shimmer-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)" />
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="0.3">
+        <animate attributeName="offset" values="0;1;0" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.08)" />
+    </linearGradient>
+
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+
+    <linearGradient id="scanline-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="transparent" />
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="transparent" />
+    </linearGradient>
+
+    <!-- Clipping paths for roles -->
+    <clipPath id="clip1">
+      <rect x="498" y="195" width="220" height="40" class="clip-rect-1" />
+    </clipPath>
+    <clipPath id="clip2">
+      <rect x="498" y="195" width="220" height="40" class="clip-rect-2" />
+    </clipPath>
+    <clipPath id="clip3">
+      <rect x="498" y="195" width="250" height="40" class="clip-rect-3" />
+    </clipPath>
+    <clipPath id="clip4">
+      <rect x="498" y="195" width="300" height="40" class="clip-rect-4" />
+    </clipPath>
+    <clipPath id="clip5">
+      <rect x="498" y="195" width="280" height="40" class="clip-rect-5" />
+    </clipPath>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1180" height="610" rx="16" fill="#030712" />
+  
+  <!-- Subtle Grid texture -->
+  <rect width="1180" height="610" rx="16" fill="url(#grid)" />
+
+  <!-- Shimmering Outer Border -->
+  <rect x="1" y="1" width="1178" height="608" rx="15" fill="none" stroke="url(#shimmer-grad)" stroke-width="1.5" />
+
+  <!-- Ambient Light Effects (Glowing dots) -->
+  <circle cx="235" cy="215" r="90" fill="#7c3aed" opacity="0.05" filter="blur(60px)" />
+  <circle cx="790" cy="300" r="140" fill="#22d3ee" opacity="0.03" filter="blur(80px)" />
+
+  <!-- Subtle Animated Star Particles -->
+  <circle cx="180" cy="120" r="1.5" fill="#22d3ee" opacity="0.4">
+    <animate attributeName="opacity" values="0.1;0.8;0.1" dur="5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="340" cy="490" r="2" fill="#7c3aed" opacity="0.3">
+    <animate attributeName="opacity" values="0.05;0.7;0.05" dur="7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="950" cy="130" r="1" fill="#10b981" opacity="0.5">
+    <animate attributeName="opacity" values="0.1;0.9;0.1" dur="4s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- LEFT SECTION (38%) -->
+  <g class="float-box">
+    <!-- ASCII Monogram Box -->
+    <rect x="50" y="80" width="370" height="230" rx="12" fill="#0f172a" stroke="rgba(255,255,255,0.06)" stroke-width="1.2" />
+    <!-- Monogram Grid Overlay -->
+    <rect x="55" y="85" width="360" height="220" fill="url(#grid)" opacity="0.5" />
+    
+    <!-- ASCII "XEV" Wordmark -->
+    <text x="235" y="170" font-weight="bold" fill="url(#text-grad)" text-anchor="middle" class="mono" font-size="14.5" letter-spacing="-0.5" xml:space="preserve">
+      <tspan x="235" dy="0">██╗  ██╗███████╗██╗   ██╗</tspan>
+      <tspan x="235" dy="17">╚██╗██╔╝██╔════╝██║   ██║</tspan>
+      <tspan x="235" dy="17"> ╚███╔╝ █████╗  ██║   ██║</tspan>
+      <tspan x="235" dy="17"> ██╔██╗ ██╔══╝  ╚██╗ ██╔╝</tspan>
+      <tspan x="235" dy="17">██╔╝ ██╗███████╗ ╚████╔╝ </tspan>
+      <tspan x="235" dy="17">╚═╝  ╚═╝╚══════╝  ╚═══╝  </tspan>
+    </text>
+  </g>
+
+  <!-- Specs / Neofetch Panel -->
+  <rect x="50" y="330" width="370" height="230" rx="12" fill="#0f172a" stroke="rgba(255,255,255,0.06)" stroke-width="1.2" />
+  
+  <g transform="translate(75, 355)" class="mono" font-size="12" fill="#cbd5e1">
+    <!-- Title header -->
+    <text x="0" y="10" font-weight="bold" fill="#7c3aed">xevorine@github</text>
+    <text x="0" y="24" fill="rgba(255,255,255,0.15)">-------------------</text>
+    
+    <!-- Specs Key-values -->
+    <text x="0" y="45"><tspan fill="#22d3ee" font-weight="semibold">OS:</tspan> <tspan fill="#cbd5e1">GitHub Profile Banner</tspan></text>
+    <text x="0" y="67"><tspan fill="#22d3ee" font-weight="semibold">Host:</tspan> <tspan fill="#cbd5e1">xevorine.github.io</tspan></text>
+    <text x="0" y="89"><tspan fill="#22d3ee" font-weight="semibold">Kernel:</tspan> <tspan fill="#cbd5e1">SVG Native (No JS)</tspan></text>
+    <text x="0" y="111"><tspan fill="#22d3ee" font-weight="semibold">Uptime:</tspan> <tspan fill="#cbd5e1">24/7 (Continuous)</tspan></text>
+    <text x="0" y="133"><tspan fill="#22d3ee" font-weight="semibold">Shell:</tspan> <tspan fill="#cbd5e1">xml (Static vector)</tspan></text>
+    <text x="0" y="155"><tspan fill="#22d3ee" font-weight="semibold">IDE:</tspan> <tspan fill="#cbd5e1">VS Code</tspan></text>
+    <text x="0" y="177"><tspan fill="#22d3ee" font-weight="semibold">CPU:</tspan> <tspan fill="#cbd5e1">CSS Keyframe Engine</tspan></text>
+  </g>
+
+
+  <!-- RIGHT SECTION (62%) - Terminal Profile Window -->
+  <rect x="450" y="50" width="680" height="510" rx="16" fill="#0f172a" stroke="rgba(255,255,255,0.06)" stroke-width="1.5" />
+  
+  <!-- Terminal Window Scanline scanner effect -->
+  <rect x="450" y="100" width="680" height="80" fill="url(#scanline-grad)" class="live-pulse" />
+  
+  <!-- Terminal Header / Titlebar -->
+  <g select-none="true">
+    <!-- Window dot indicators (macOS style) -->
+    <circle cx="475" cy="75" r="5" fill="#EF4444" />
+    <circle cx="493" cy="75" r="5" fill="#F59E0B" />
+    <circle cx="511" cy="75" r="5" fill="#10B981" />
+    
+    <!-- Title -->
+    <text x="790" y="80" font-size="11.5" fill="#94a3b8" text-anchor="middle" class="mono">xevorine@github:~</text>
+    
+    <!-- Connection Status -->
+    <text x="1090" y="79" font-size="9" fill="#10b981" text-anchor="end" font-weight="bold" class="mono letter-spacing-1">LIVE</text>
+    <circle cx="1102" cy="75" r="3.5" fill="#10b981" class="live-pulse" />
+    
+    <!-- Header border divider -->
+    <line x1="450" y1="100" x2="1130" y2="100" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  </g>
+
+  <!-- Terminal Content Body -->
+  <!-- Label Pill -->
+  <g transform="translate(480, 130)">
+    <rect width="112" height="20" rx="10" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-width="0.75" />
+    <text x="56" y="13.5" font-size="9.5" fill="#10b981" font-weight="bold" text-anchor="middle" class="mono" letter-spacing="0.5">GITHUB PROFILE</text>
+  </g>
+
+  <!-- Main Title Greeting -->
+  <text x="480" y="188" font-size="28" fill="#f8fafc" class="font-display">
+    Hi 👋 I'm <tspan fill="#7c3aed" font-weight="bold" class="mono" font-size="26">Bivan Pramudyto</tspan>
+  </text>
+
+  <!-- Typing Roles Animations -->
+  <g transform="translate(480, 222)" class="mono" font-size="15.5">
+    <text x="0" y="0" fill="#94a3b8">$</text>
+    
+    <!-- Staged clipped texts -->
+    <text x="18" y="0" fill="#22d3ee" font-weight="bold" clip-path="url(#clip1)" class="role-1">Informatics Student</text>
+    <text x="18" y="0" fill="#22d3ee" font-weight="bold" clip-path="url(#clip2)" class="role-2">Web Developer</text>
+    <text x="18" y="0" fill="#22d3ee" font-weight="bold" clip-path="url(#clip3)" class="role-3">AI Automation Explorer</text>
+    <text x="18" y="0" fill="#22d3ee" font-weight="bold" clip-path="url(#clip4)" class="role-4">Database Design Enthusiast</text>
+    <text x="18" y="0" fill="#22d3ee" font-weight="bold" clip-path="url(#clip5)" class="role-5">Machine Learning Learner</text>
+
+    <!-- Blinking cursors translated in sync -->
+    <g class="role-1">
+      <rect x="18" y="-13" width="8" height="15" fill="#22d3ee" class="cursor-rect-1" />
+    </g>
+    <g class="role-2">
+      <rect x="18" y="-13" width="8" height="15" fill="#22d3ee" class="cursor-rect-2" />
+    </g>
+    <g class="role-3">
+      <rect x="18" y="-13" width="8" height="15" fill="#22d3ee" class="cursor-rect-3" />
+    </g>
+    <g class="role-4">
+      <rect x="18" y="-13" width="8" height="15" fill="#22d3ee" class="cursor-rect-4" />
+    </g>
+    <g class="role-5">
+      <rect x="18" y="-13" width="8" height="15" fill="#22d3ee" class="cursor-rect-5" />
+    </g>
+  </g>
+
+  <!-- Key Value Info config -->
+  <g transform="translate(480, 260)" class="mono" font-size="12" fill="#f8fafc">
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" fill="#94a3b8">location</text>
+      <text x="80" y="0" fill="#cbd5e1">=</text>
+      <text x="100" y="0" fill="#10b981">"Indonesia"</text>
+    </g>
+    <g transform="translate(0, 22)">
+      <text x="0" y="0" fill="#94a3b8">education</text>
+      <text x="80" y="0" fill="#cbd5e1">=</text>
+      <text x="100" y="0" fill="#10b981">"Informatics Student"</text>
+    </g>
+    <g transform="translate(0, 44)">
+      <text x="0" y="0" fill="#94a3b8">focus</text>
+      <text x="80" y="0" fill="#cbd5e1">=</text>
+      <text x="100" y="0" fill="#10b981">["web systems", "AI automation", "ML", "database design"]</text>
+    </g>
+    <g transform="translate(0, 66)">
+      <text x="0" y="0" fill="#94a3b8">portfolio</text>
+      <text x="80" y="0" fill="#cbd5e1">=</text>
+      <text x="100" y="0" fill="#22d3ee">"xevorine.github.io/portofolio"</text>
+    </g>
+    <g transform="translate(0, 88)">
+      <text x="0" y="0" fill="#94a3b8">github</text>
+      <text x="80" y="0" fill="#cbd5e1">=</text>
+      <text x="100" y="0" fill="#22d3ee">"github.com/xevorine"</text>
+    </g>
+    <g transform="translate(0, 110)">
+      <text x="0" y="0" fill="#94a3b8">email</text>
+      <text x="80" y="0" fill="#cbd5e1">=</text>
+      <text x="100" y="0" fill="#22d3ee">"bivanpramudyto17@gmail.com"</text>
+    </g>
+  </g>
+
+  <!-- Skills Gird -->
+  <text x="480" y="402" font-size="9" font-weight="bold" fill="#94a3b8" class="mono" letter-spacing="1">CORE STACK &amp; TECHNOLOGIES</text>
+  
+  <!-- Row 1 Skills -->
+  <g transform="translate(480, 416)" class="mono" font-size="10.5" fill="#cbd5e1">
+    <g transform="translate(0, 0)">
+      <rect width="66" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="33" y="15" text-anchor="middle">Laravel</text>
+    </g>
+    <g transform="translate(74, 0)">
+      <rect width="40" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="20" y="15" text-anchor="middle">PHP</text>
+    </g>
+    <g transform="translate(122, 0)">
+      <rect width="52" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="26" y="15" text-anchor="middle">MySQL</text>
+    </g>
+    <g transform="translate(182, 0)">
+      <rect width="40" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="20" y="15" text-anchor="middle">n8n</text>
+    </g>
+    <g transform="translate(230, 0)">
+      <rect width="46" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="23" y="15" text-anchor="middle">WAHA</text>
+    </g>
+    <g transform="translate(284, 0)">
+      <rect width="58" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="29" y="15" text-anchor="middle">Gemini</text>
+    </g>
+    <g transform="translate(350, 0)">
+      <rect width="58" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="29" y="15" text-anchor="middle">Python</text>
+    </g>
+  </g>
+
+  <!-- Row 2 Skills -->
+  <g transform="translate(480, 446)" class="mono" font-size="10.5" fill="#cbd5e1">
+    <g transform="translate(0, 0)">
+      <rect width="80" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="40" y="15" text-anchor="middle">TensorFlow</text>
+    </g>
+    <g transform="translate(88, 0)">
+      <rect width="40" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="20" y="15" text-anchor="middle">CNN</text>
+    </g>
+    <g transform="translate(136, 0)">
+      <rect width="40" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="20" y="15" text-anchor="middle">SQL</text>
+    </g>
+    <g transform="translate(184, 0)">
+      <rect width="66" height="22" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="skill-tag" />
+      <text x="33" y="15" text-anchor="middle">Tailwind</text>
+    </g>
+  </g>
+
+  <!-- Footer Actions / Social Shortcuts -->
+  <g transform="translate(480, 506)" class="mono" font-size="11" fill="#cbd5e1">
+    <line x1="0" y1="-18" x2="620" y2="-18" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="2 2" />
+    
+    <g transform="translate(0, 0)">
+      <rect width="64" height="24" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="social-btn" />
+      <text x="32" y="16" text-anchor="middle">GitHub</text>
+    </g>
+    <g transform="translate(72, 0)">
+      <rect width="76" height="24" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="social-btn" />
+      <text x="38" y="16" text-anchor="middle">LinkedIn</text>
+    </g>
+    <g transform="translate(156, 0)">
+      <rect width="80" height="24" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="social-btn" />
+      <text x="40" y="16" text-anchor="middle">Portfolio</text>
+    </g>
+    <g transform="translate(244, 0)">
+      <rect width="56" height="24" rx="5" fill="#1e293b" stroke="rgba(255,255,255,0.06)" stroke-width="0.75" class="social-btn" />
+      <text x="28" y="16" text-anchor="middle">Email</text>
+    </g>
+  </g>
+</svg>
