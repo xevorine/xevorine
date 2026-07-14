@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-banner/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="github-banner/light.svg">
-  <img alt="Bivan Pramudyto GitHub Profile Banner" src="github-banner/dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="github-banner/dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="github-banner/light.svg?v=2">
+  <img alt="Bivan Pramudyto GitHub Profile Banner" src="github-banner/dark.svg?v=2" width="100%">
 </picture>
 
 ---
